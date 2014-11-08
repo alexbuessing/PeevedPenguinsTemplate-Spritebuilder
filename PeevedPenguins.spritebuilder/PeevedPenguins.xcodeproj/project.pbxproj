@@ -38,6 +38,7 @@
 		B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
 		FA27EE621A083501009053D1 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = FA27EE611A083501009053D1 /* Penguin.m */; };
 		FA27EE651A083519009053D1 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = FA27EE641A083519009053D1 /* Seal.m */; };
+		FA27EE681A0855B5009053D1 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = FA27EE671A0855B5009053D1 /* Gameplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,8 @@
 		FA27EE611A083501009053D1 /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Penguin.m; path = Source/Penguin.m; sourceTree = "<group>"; };
 		FA27EE631A083519009053D1 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seal.h; path = Source/Seal.h; sourceTree = "<group>"; };
 		FA27EE641A083519009053D1 /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seal.m; path = Source/Seal.m; sourceTree = "<group>"; };
+		FA27EE661A0855B5009053D1 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gameplay.h; path = Source/Gameplay.h; sourceTree = "<group>"; };
+		FA27EE671A0855B5009053D1 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gameplay.m; path = Source/Gameplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,12 @@
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
+				FA27EE661A0855B5009053D1 /* Gameplay.h */,
+				FA27EE671A0855B5009053D1 /* Gameplay.m */,
+				FA27EE631A083519009053D1 /* Seal.h */,
+				FA27EE641A083519009053D1 /* Seal.m */,
+				FA27EE601A083501009053D1 /* Penguin.h */,
+				FA27EE611A083501009053D1 /* Penguin.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -171,10 +180,6 @@
 		B77F1B2517B978D7009739AE = {
 			isa = PBXGroup;
 			children = (
-				FA27EE601A083501009053D1 /* Penguin.h */,
-				FA27EE611A083501009053D1 /* Penguin.m */,
-				FA27EE631A083519009053D1 /* Seal.h */,
-				FA27EE641A083519009053D1 /* Seal.m */,
 				B737893C1807616C0076A88C /* Source */,
 				B77F1B4617B978D7009739AE /* Resources */,
 				9222E2B918734FF800A246C7 /* libs */,
@@ -355,6 +360,7 @@
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				FA27EE621A083501009053D1 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				FA27EE681A0855B5009053D1 /* Gameplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
