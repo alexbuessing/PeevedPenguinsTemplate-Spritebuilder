@@ -23,6 +23,11 @@
 }
 
 //called on every touch in this scene
+-(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
+{
+    [self launchPenguin];
+}
+
 -(void)launchPenguin
 {
     //loads the Penguin.ccb we have set up in Spritebuilder
