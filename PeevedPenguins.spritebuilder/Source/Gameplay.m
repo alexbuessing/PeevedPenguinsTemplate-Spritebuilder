@@ -26,7 +26,7 @@
     [_levelNode addChild:level];
     
     //visualize physics bodies & joints
-    _physicsNode.debugDraw =True;
+    _physicsNode.debugDraw = TRUE;
 }
 
 //called on every touch in this scene
