@@ -7,6 +7,7 @@
 //
 
 #import "CCNode.h"
+#import <UIKit/UIKit.h>
 
 @interface Gameplay : CCNode
 

@@ -7,7 +7,6 @@
 //
 
 #import "Gameplay.h"
-#import <UIKit/UIKit.h>
 
 @implementation Gameplay
 {
